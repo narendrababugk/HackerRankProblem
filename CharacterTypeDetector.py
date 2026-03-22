@@ -1,0 +1,6 @@
+s = input("Enter the string: ")
+print("Contains alphanumeric characters:", any(c.isalnum() for c in s))
+print("Contains alphabetical characters:", any(c.isalpha() for c in s))
+print("Contains digit characters:", any(c.isdigit() for c in s))
+print("Contains lowercase characters:", any(c.islower() for c in s))
+print("Contains uppercase characters:", any(c.isupper() for c in s))
