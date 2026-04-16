@@ -1,6 +1,6 @@
 import re
 
-T = int(input("Enter the number of elements:))
+T = int(input("Enter the number of elements:"))
 
 pattern = r'^[+-]?\d*\.\d+$'
 
